@@ -53,6 +53,7 @@ class Root6 < Formula
       -Dbuiltin_freetype=ON
       -Droofit=ON
       -Dminuit2=ON
+      #{config_opt("all")}
       #{config_opt("python")}
       #{config_opt("ssl", "openssl")}
       #{config_opt("xrootd")}
